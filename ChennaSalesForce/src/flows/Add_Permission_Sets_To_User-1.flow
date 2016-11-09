@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <interviewLabel>Add Permission Sets To User {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Add Permission Sets To User</label>
+    <processType>AutoLaunchedFlow</processType>
+    <recordCreates>
+        <name>Add_Permission_Sets</name>
+        <label>Add Permission Sets</label>
+        <locationX>218</locationX>
+        <locationY>153</locationY>
+        <inputAssignments>
+            <field>AssigneeId</field>
+            <value>
+                <elementReference>UserId</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>PermissionSetId</field>
+            <value>
+                <stringValue>0PS36000001EdDm</stringValue>
+            </value>
+        </inputAssignments>
+        <object>PermissionSetAssignment</object>
+    </recordCreates>
+    <startElementReference>Add_Permission_Sets</startElementReference>
+    <variables>
+        <name>UserId</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>true</isOutput>
+        <value>
+            <stringValue>0</stringValue>
+        </value>
+    </variables>
+</Flow>

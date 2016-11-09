@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Candidate</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Candidates</value>
+    </caseValues>
+    <fields>
+        <label><!-- Cadidate Record Type --></label>
+        <name>Cadidate_Record_Type__c</name>
+        <picklistValues>
+            <masterLabel>Designers</masterLabel>
+            <translation><!-- Designers --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Developers</masterLabel>
+            <translation><!-- Developers --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Testers</masterLabel>
+            <translation><!-- Testers --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- How well does this candidate fit the job description --></help>
+        <label><!-- Prospect Rating --></label>
+        <name>Prospect_Rating__c</name>
+        <picklistValues>
+            <masterLabel>Cool</masterLabel>
+            <translation><!-- Cool --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hot</masterLabel>
+            <translation><!-- Hot --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Manager Favorite</masterLabel>
+            <translation><!-- Manager Favorite --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Warm</masterLabel>
+            <translation><!-- Warm --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Sample123 --></label>
+        <name>Sample123__c</name>
+        <picklistValues>
+            <masterLabel>a</masterLabel>
+            <translation><!-- a --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>b</masterLabel>
+            <translation><!-- b --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>c</masterLabel>
+            <translation><!-- c --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Sample1 --></label>
+        <name>Sample1__c</name>
+    </fields>
+    <recordTypes>
+        <label><!-- Developers --></label>
+        <name>Developers</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Sample2 --></label>
+        <name>Sample2</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Sample3 --></label>
+        <name>Sample3</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Testers --></label>
+        <name>Testers</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

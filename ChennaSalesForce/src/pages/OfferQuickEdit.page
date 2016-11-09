@@ -1,0 +1,3 @@
+<apex:page standardController="Terminal__c" >
+  <b> Hello World! </b>
+</apex:page>
